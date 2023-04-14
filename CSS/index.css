@@ -1,0 +1,71 @@
+/* selector {
+    propiedad: valor;
+    propiedad:valor;
+} (es la estructura de css)
+*/          
+
+h2{/* selector global */
+    color: rgb(255, 255, 255);
+    font-size: 45px ;
+    background-color:rgb(255, 0, 0) ;
+    text-align:center;
+}
+
+/* selector de clase */
+.selecclase{
+    color: rgb(255, 255, 255);
+    font-size: 45px ;
+    background-color:rgb(255, 0, 0) ;
+    text-align:left;
+}
+
+/* selector por id */
+
+#miparrafo{
+    margin-top: 80px;
+}
+
+h1{
+    /* bordes */
+    border-top: solid 5px black;
+    border-right: dashed 8px blueviolet;
+    border-bottom: solid 10px gray;
+    border-left: dotted 12px blue;
+    /* relleno */
+    padding-top: 35px;
+    padding-left: 250px;
+    padding-right: 50px;
+    padding-bottom: 35px;
+    /* margen */
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.parrafo2{
+    font-size: 22px;
+}
+
+.micolor{
+    color: red;
+}
+
+/* estilo de listas */
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid black;
+    background-color:chocolate;
+
+}
+
+a{
+    text-decoration: none;
+}
