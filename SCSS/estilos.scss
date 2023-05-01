@@ -1,0 +1,15 @@
+/* importar variable de otro archivo */
+@import "nav.scss";
+
+
+/* asignación de variable */
+$color:aquamarine;
+$alto: 250px;
+
+body{
+    background-color: $color;
+}
+
+p {
+    height: $alto;
+}
